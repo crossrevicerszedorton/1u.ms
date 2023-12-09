@@ -1,4 +1,4 @@
-domain: 1u.ms
+domain: 1us.ms365
 
 http:
   listen_on:
@@ -6,15 +6,15 @@ http:
     - ":8080"
 
 predefined_records:
-  1u.ms:
+  1us.ms365:
     A:
-      - "1u.ms. 1 IN A 206.81.28.151"
+      - "1us.ms365. 1 IN A 206.81.28.151"
     SOA:
-      - "1u.ms. 1 IN SOA hui.sh.je. root.localhost. 12321833 0 0 0 1"
+      - "1us.ms365. 1 IN SOA hui.sh.je. root.localhost. 12321833 0 0 0 1"
     NS:
-      - "1u.ms. 1 IN NS hui.sh.je."
-      - "1u.ms. 1 IN NS pizda.sh.je."
+      - "1us.ms365. 1 IN NS hui.sh.je."
+      - "1us.ms365. 1 IN NS pizda.sh.je."
 
   rec.1u.ms:
     A:
-      - "rec.1u.ms. 0 IN CNAME rec.1u.ms."
+      - "rec.1us.ms365. 0 IN CNAME rec.1us.ms365."
